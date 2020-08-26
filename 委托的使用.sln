@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_lamda表达式", "04_lam
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_委托的兼容性", "05_委托的兼容性\05_委托的兼容性.csproj", "{4BC5A554-BB13-4E1C-A8A6-CBADE7D8ED52}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_委托的异步调用", "06_委托的异步调用\06_委托的异步调用.csproj", "{6B24888B-7F5F-4827-8AE7-3FE11EAA1F54}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{4BC5A554-BB13-4E1C-A8A6-CBADE7D8ED52}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4BC5A554-BB13-4E1C-A8A6-CBADE7D8ED52}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4BC5A554-BB13-4E1C-A8A6-CBADE7D8ED52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B24888B-7F5F-4827-8AE7-3FE11EAA1F54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B24888B-7F5F-4827-8AE7-3FE11EAA1F54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B24888B-7F5F-4827-8AE7-3FE11EAA1F54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B24888B-7F5F-4827-8AE7-3FE11EAA1F54}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

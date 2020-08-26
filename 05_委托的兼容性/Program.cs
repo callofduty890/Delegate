@@ -44,12 +44,8 @@ namespace _05_委托的兼容性
 
             //创建子类的对象
             Dog d = new Dog();
-            //父类的输入参数 Dog的对象由父类Manmal接受
-            HandleModthod1 handle22 = ThirdHandler;
             //逆变，参数Dog默认可以转换成为Mammal
             HandleModthod2 handle33 = ThirdHandler;
-
-            handle22(d);
             handle33(d);
 
 
