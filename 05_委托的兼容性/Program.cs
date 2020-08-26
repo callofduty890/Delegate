@@ -14,9 +14,9 @@ namespace _05_委托的兼容性
         //定义不同的委托
         public delegate Manmal HandlerMethod();
         public delegate void HandleModthod1(Manmal m);
-        public delegate void handleModthod2(Dog d);
+        public delegate void HandleModthod2(Dog d);
 
-        //委托绑定对应的方法
+        //准备委托绑定对应的方法
         public static Manmal FirstHandler()
         { Console.WriteLine("First Handler");return null; }
 
@@ -28,6 +28,33 @@ namespace _05_委托的兼容性
 
         static void Main(string[] args)
         {
+            //正常的匹配 返回父类 输入形参:无
+            HandlerMethod handler1 = FirstHandler;
+            handler1();
+            //协变 返回值Dog默认转换为Mammal(父类中装子类)
+            HandlerMethod handler2 = SecondHandler;
+            handler2();
+
+            //创建父类的对象
+            Manmal m = new Manmal();
+            //正常匹配 无返回值，输入的形参为父类
+            HandleModthod1 handler11 = ThirdHandler;
+            handler11(m);
+
+
+            //创建子类的对象
+            Dog d = new Dog();
+            //父类的输入参数 Dog的对象由父类Manmal接受
+            HandleModthod1 handle22 = ThirdHandler;
+            //逆变，参数Dog默认可以转换成为Mammal
+            HandleModthod2 handle33 = ThirdHandler;
+
+            handle22(d);
+            handle33(d);
+
+
+
+
         }
     }
 }
