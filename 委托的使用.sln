@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30406.217
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "委托的使用", "委托的使用\委托的使用.csproj", "{7C726DFE-FC71-4FC1-BC3D-21E31A68EC11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_委托有返回值", "01_委托有返回值\01_委托有返回值.csproj", "{B270B793-7AEA-4FA9-AAC1-299CCEB5503F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_委托的参数列表ref", "02_委托的参数列表ref\02_委托的参数列表ref.csproj", "{3FDE1BB6-7C37-4318-ADE3-2E5B3B3FEE91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_匿名方法", "03_匿名方法\03_匿名方法.csproj", "{423F3EEB-33A8-4F62-B044-B7ED11D1BDF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_lamda表达式", "04_lamda表达式\04_lamda表达式.csproj", "{0B188385-3984-4F1A-BD49-EA3FF4D0056B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C726DFE-FC71-4FC1-BC3D-21E31A68EC11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C726DFE-FC71-4FC1-BC3D-21E31A68EC11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C726DFE-FC71-4FC1-BC3D-21E31A68EC11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C726DFE-FC71-4FC1-BC3D-21E31A68EC11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B270B793-7AEA-4FA9-AAC1-299CCEB5503F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B270B793-7AEA-4FA9-AAC1-299CCEB5503F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B270B793-7AEA-4FA9-AAC1-299CCEB5503F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B270B793-7AEA-4FA9-AAC1-299CCEB5503F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FDE1BB6-7C37-4318-ADE3-2E5B3B3FEE91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FDE1BB6-7C37-4318-ADE3-2E5B3B3FEE91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FDE1BB6-7C37-4318-ADE3-2E5B3B3FEE91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FDE1BB6-7C37-4318-ADE3-2E5B3B3FEE91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{423F3EEB-33A8-4F62-B044-B7ED11D1BDF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{423F3EEB-33A8-4F62-B044-B7ED11D1BDF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{423F3EEB-33A8-4F62-B044-B7ED11D1BDF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{423F3EEB-33A8-4F62-B044-B7ED11D1BDF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B188385-3984-4F1A-BD49-EA3FF4D0056B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B188385-3984-4F1A-BD49-EA3FF4D0056B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B188385-3984-4F1A-BD49-EA3FF4D0056B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B188385-3984-4F1A-BD49-EA3FF4D0056B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C7F8F2DD-A424-4D76-BC8B-9904B8161B8B}
+	EndGlobalSection
+EndGlobal
