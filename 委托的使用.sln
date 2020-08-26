@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_匿名方法", "03_匿�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_lamda表达式", "04_lamda表达式\04_lamda表达式.csproj", "{0B188385-3984-4F1A-BD49-EA3FF4D0056B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_委托的兼容性", "05_委托的兼容性\05_委托的兼容性.csproj", "{4BC5A554-BB13-4E1C-A8A6-CBADE7D8ED52}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{0B188385-3984-4F1A-BD49-EA3FF4D0056B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B188385-3984-4F1A-BD49-EA3FF4D0056B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B188385-3984-4F1A-BD49-EA3FF4D0056B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BC5A554-BB13-4E1C-A8A6-CBADE7D8ED52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BC5A554-BB13-4E1C-A8A6-CBADE7D8ED52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BC5A554-BB13-4E1C-A8A6-CBADE7D8ED52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BC5A554-BB13-4E1C-A8A6-CBADE7D8ED52}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
