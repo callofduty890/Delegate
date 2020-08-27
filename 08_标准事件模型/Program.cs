@@ -26,7 +26,6 @@ namespace _08_标准事件模型
         ArrayList list;
         //步骤4：在事件生产类中,声明事件  (妈妈类的事件)
         public event NameListEventHandler nameListEvent;
-        
         public NameList()
         {
             list = new ArrayList();
@@ -40,15 +39,24 @@ namespace _08_标准事件模型
             {
                 nameListEvent(this, new NameListEventArgs(Name, list.Count));
             }
-        }
-
-        
+        } 
     }
 
+     //步骤6:声明处理事件的类 (事件消费类)
     class Program
     {
+       //步骤7: 在事件消费类中,声明事件处理方法
+       public static void Method1(object sourc,NameListEventArgs args)
+       {
+            Console.WriteLine("列表中增加了项目:{0}", args.Name);
+        }
+        public static void Method2(object sourc, NameListEventArgs args)
+        {
+            Console.WriteLine("列表中的项目数:{0}", args.Count);
+        }
         static void Main(string[] args)
         {
+            
 
         }
     }
