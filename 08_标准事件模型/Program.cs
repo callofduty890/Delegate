@@ -54,9 +54,17 @@ namespace _08_标准事件模型
         {
             Console.WriteLine("列表中的项目数:{0}", args.Count);
         }
+
         static void Main(string[] args)
         {
-            
+            NameList nl = new NameList();
+            //步骤8:在事件消费类中,订阅或取消事件
+            nl.nameListEvent += Method1;
+            nl.nameListEvent += Method2;
+            //添加
+            nl.Add("张三"); nl.Add("李四"); nl.Add("王五");
+            //等待输入
+            Console.ReadKey();
 
         }
     }
