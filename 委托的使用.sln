@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_委托的异步调用", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_事件的声明、引发、订阅和取消", "07_事件的声明、引发、订阅和取消\07_事件的声明、引发、订阅和取消.csproj", "{E70BCD8D-2CF1-4227-A28E-B38300F2B27F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08_标准事件模型", "08_标准事件模型\08_标准事件模型.csproj", "{467510B4-7DEF-4FD6-BBFF-FCAA60CCC914}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{E70BCD8D-2CF1-4227-A28E-B38300F2B27F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E70BCD8D-2CF1-4227-A28E-B38300F2B27F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E70BCD8D-2CF1-4227-A28E-B38300F2B27F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{467510B4-7DEF-4FD6-BBFF-FCAA60CCC914}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{467510B4-7DEF-4FD6-BBFF-FCAA60CCC914}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{467510B4-7DEF-4FD6-BBFF-FCAA60CCC914}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{467510B4-7DEF-4FD6-BBFF-FCAA60CCC914}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
